@@ -1,0 +1,66 @@
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylecarrinho.css">
+        <title>Lírio Jóias</title>
+</head>
+    <body>
+        <div class="background">
+        <header>
+        <div class="logo">
+        
+            <h1>Lírio Jóias</h1>
+        
+        </div><!--logo-->
+        <div class="cabeçalho-link">
+        <li>
+        <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="destaque.html">Destaque</a>
+            </li>
+            <li>
+                <a href="novo.html">Novo</a>
+                </li>
+                <li>
+                    <a href="promoçoes.html">Promoções</a>
+                    </li>
+        </div><!--cabeçalho-link-->
+        <div class="icon"><span><ion-icon name="bag-outline"></ion-icon></span></div>
+        </header>
+        <section>
+        <h1>Lista de Compras</h1>
+        <div class="container-compras">
+            <div class="item">
+                <img src="img/anelcolarbrinco.jpg" alt="Produto 1">
+                <h3>Produto 1</h3>
+                <p>Anel + Colar e Brincos</p>
+                <div class="info">
+                    <input type="number" min="1" value="1">
+                    <p>R$50.00</p>
+                </div>
+                <button class="btn-adicionar" onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="item">
+                <img src="img/joinha.png" alt="Produto 2">
+                <h3>Produto 2</h3>
+                <p>Tornozeleira</p>
+                <div class="info">
+                    <input type="number" min="1" value="1">
+                    <p>R$150.00</p>
+                </div>
+                <button class="btn-adicionar" onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="item">
+                <img src="img/pulseiraa.png" alt="Produto 3">
+                <h3>Produto 3</h3>
+                <p>Descrição do Produto 3</p>
+                <div class="info">
+                    <input type="number" min="1" value="1">
+                    <p>$100.00</p>
+                </div>
+                <button class="btn-adicionar" onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        </section>
+    </body>
